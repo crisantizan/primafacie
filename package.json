@@ -1,7 +1,16 @@
 {
-  "name": "vue-core",
-  "version": "0.1.0",
-  "private": true,
+  "name": "primafacie",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "github.com:crisantizan/primafacie"
+  },
+  "author": {
+    "name": "Cristian Santiz",
+    "email": "crisantizan@gmail.com",
+    "url": "https://cristiansantiz.netlify.app"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:wc & npm run build:lib",
