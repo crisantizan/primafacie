@@ -1,4 +1,14 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from 'vue';
+import App from './App.vue';
 
-createApp(App).mount("#app");
+// import components here
+import Button from './components/Button.vue';
+import Input from './components/Input.vue';
+
+// export components for this library
+export default {
+  Button,
+  Input
+};
+
+createApp(App).mount('#app');
