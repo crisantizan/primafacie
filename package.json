@@ -1,10 +1,10 @@
 {
   "name": "primafacie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "github.com:crisantizan/primafacie"
+    "url": "https://github.com/crisantizan/primafacie"
   },
   "author": {
     "name": "Cristian Santiz",
@@ -13,13 +13,11 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:wc & npm run build:lib",
+    "build": "npm run build:lib",
     "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target lib --name primafacie 'src/main.js'",
-    "build:wc": "vue-cli-service build --target wc --name primafacie 'src/components/*.vue'"
+    "build:lib": "vue-cli-service build --target lib --name primafacie 'src/main.js'"
   },
   "main": "dist/primafacie.common.js",
-  "unpkg": "dist/primafacie.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
